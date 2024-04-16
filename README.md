@@ -7,8 +7,12 @@ The primary resource for this workshop is the Workshop.ipynb notebook. In order 
 If attendees do not have the necessary requirements to run devcontainers, they can resort to using platforms like Databricks or Google Colab for running the workshop materials.
 
 # Getting Started
-To start the workshop, attendees can open the `Workshop.ipynb` file and begin reading the contents and doing the exercises. Ensure that the devcontainer is set up as per the provided requirements.
-Alternative Options
+First, you need to set up a devcontainer. If it is your first time setting-up such an environment, please consider following: https://code.visualstudio.com/docs/devcontainers/containers 
+If you meet all the system requirements and have everything installed, you may set-up the devcontainer.
+1. Open Visual Studio Code.
+2. Press `Ctrl + Shift + P` and enter: `Dev Containers: Rebuild And Reopen In Container`
+3. The devcontainer starts building, after it has finished, attendees can open the `Workshop.ipynb` file and begin reading the contents and doing the exercises.
+
 
 We're excited to have you join us for the OR workshop! Happy learning and problem-solving! 🚀
 
