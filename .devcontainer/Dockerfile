@@ -7,7 +7,9 @@ ENV PYTHONUNBUFFERED 1
 RUN pip install --upgrade pip
 
 # # Download repository with cbc solver and install it.
-RUN apt-get update
+RUN rm -f /etc/apt/sources.list.d/yarn.list \
+    && apt-get update
 RUN apt install -y libglpk-dev libgmp3-dev
 RUN apt-get install glpk-utils
 RUN apt-get install -y -qq coinor-cbc
+
